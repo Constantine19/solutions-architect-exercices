@@ -4,7 +4,7 @@ import typing
 
 from . import parsers
 
-DATASETS_DIRECTORY_PATH = 'DataSets'
+DATASETS_DIRECTORY_PATH = 'part-A/data'
 CSV_FILE_OUTPUT_PATH = 'part-A/final_results.csv'
 
 extension_by_parser = {
@@ -44,7 +44,7 @@ def combine_datasets() -> typing.List[typing.Dict[str, typing.Any]]:
             combined_cities_data.extend(cities_data)
             
     return [
-        city.dict() for city in combined_cities_data
+        city.model_dump() for city in combined_cities_data
     ]
 
 def remove_duplicates(

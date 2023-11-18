@@ -17,6 +17,10 @@ The goal is to combine these files, eliminate duplicates, and write the resultin
 
 ## Solution
 
+### Requirements
+
+- Python 3.9 or higher
+
 ### Code Organization
 
 The solution is organized into modular components to improve readability, maintainability, and scalability.
@@ -44,7 +48,7 @@ The solution is organized into modular components to improve readability, mainta
     ```
 2. Install the dependencies
     ```
-    pip3 install -r requirements.txt
+    pip3 install -r part-A/requirements.txt
     ```
 3. Run the script as a module from the repo's root:
     ```
