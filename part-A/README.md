@@ -34,7 +34,7 @@ The solution is organized into modular components to improve readability, mainta
   - `city.py`: Defines and validates a city.
 
 - **Main Script:**
-  - `main.py`: Executes the data processing pipeline, combining datasets, removing duplicates, sorting, and generating the answers to the questions.
+  - `run.py`: Executes the data processing pipeline, combining datasets, removing duplicates, sorting, and generating the answers to the questions.
 
 - **Requirements:**
   - `requirements.txt`: File that contains the requirements that need to be installed prior to executing the main script.
