@@ -1,5 +1,4 @@
 import random
-import json
 import csv
 
 import faker
@@ -7,7 +6,6 @@ import faker
 
 MOCK_DOCUMENT_HITS_AMOUNT = 20000
 MOCK_DATASET_PATH = 'part-B/data/mock_documents.csv'
-
 
 
 def generate_mock_dataset():
