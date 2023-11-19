@@ -53,9 +53,9 @@ The number of servers required for the analytics cluster depends on factors like
 - **Retention Policy**: 
     - Storing one year of data suggests around 73 TB of historical data (200 GB/day * 365 days).
 - **Recommendation**:
-    - Real-Time Nodes: 3 to 5 nodes for real-time ingestion and indexing.
-    - Historical Nodes: 10 to 15 nodes for storing 1 year of data efficiently.
-    - Broker Nodes: 2 to 3 nodes for handling query requests.
+    - Real-Time Nodes: 4 to 8 nodes for real-time ingestion and indexing.
+    - Historical Nodes: 10 to 16 nodes for storing 1 year of data efficiently.
+    - Broker Nodes: 2 to 4 nodes for handling query requests.
 
 ### Question 2. How these servers should be configured (JVM config, Druid runtime.properties)
 
